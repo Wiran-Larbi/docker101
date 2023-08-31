@@ -1,0 +1,5 @@
+Docker Commands : 
+- docker build -t react_app:latest .  // Creates an image for building the container
+- docker images // Checking if image exists
+- docker run --name react_container -d -p 3000:3000 react_app // Creating a docker container from an existing image
+- docker ps // Checking if container running 
